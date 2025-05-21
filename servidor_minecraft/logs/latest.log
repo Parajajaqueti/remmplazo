@@ -446,3 +446,10 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [21May2025 23:02:41.193] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
 [21May2025 23:02:45.649] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:54737] logged in with entity id 68 at (-867.7299413258371, 35.0, 495.29080435188916)
 [21May2025 23:02:45.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
+[21May2025 23:15:15.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Who is Cutting Onions?]
+[21May2025 23:17:16.920] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Disconnected
+[21May2025 23:17:16.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[21May2025 23:17:16.982] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[21May2025 23:17:36.243] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
+[21May2025 23:17:41.737] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:42321] logged in with entity id 2665 at (-777.9194547597414, 33.0, 685.5846252050738)
+[21May2025 23:17:41.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
