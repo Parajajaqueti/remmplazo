@@ -1,90 +1,90 @@
-[21May2025 03:56:15.248] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[21May2025 03:56:15.252] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[21May2025 03:56:15.793] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[21May2025 03:56:15.840] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/remmplazo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[21May2025 03:56:16.169] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/remmplazo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[21May2025 03:56:16.170] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/remmplazo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21May2025 03:56:16.172] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/remmplazo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21May2025 03:56:16.173] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/remmplazo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21May2025 03:56:16.523] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[21May2025 03:56:16.524] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
-[21May2025 03:56:19.193] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[21May2025 03:56:19.305] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[21May2025 03:56:19.348] [main/WARN] [mixin/]: Reference map 'guardribbits.refmap.json' for guardribbits.mixins.json could not be read. If this is a development environment you can ignore this message
-[21May2025 03:56:19.351] [main/WARN] [mixin/]: Reference map 'guardribbits.refmap.json' for guardribbits_forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[21May2025 03:56:19.515] [main/WARN] [mixin/]: Reference map 'CreateLiquidFuel.refmap.json' for createliquidfuel.mixins.json could not be read. If this is a development environment you can ignore this message
-[21May2025 03:56:19.533] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 86 options available, 0 override(s) found
-[21May2025 03:56:19.720] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[21May2025 03:56:19.721] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[21May2025 03:56:19.721] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found mixins.create_sa.json:AbstractClientPlayerMixin
-[21May2025 03:56:20.331] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
-[21May2025 03:56:20.332] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
-[21May2025 03:56:20.356] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
-[21May2025 03:56:20.356] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
-[21May2025 03:56:20.357] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
-[21May2025 03:56:20.358] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
-[21May2025 03:56:20.397] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
-[21May2025 03:56:20.517] [main/WARN] [mixin/]: Error loading class: studio/fantasyit/ars_botania/event/CapEvent (java.lang.ClassNotFoundException: studio.fantasyit.ars_botania.event.CapEvent)
-[21May2025 03:56:20.517] [main/WARN] [mixin/]: @Mixin target studio.fantasyit.ars_botania.event.CapEvent was not found create_central_kitchen.mixins.json:common.arsbotania.CapEventMixin
-[21May2025 03:56:20.520] [main/WARN] [mixin/]: Error loading class: earth/terrarium/botarium/forge/BotariumForge (java.lang.ClassNotFoundException: earth.terrarium.botarium.forge.BotariumForge)
-[21May2025 03:56:20.521] [main/WARN] [mixin/]: @Mixin target earth.terrarium.botarium.forge.BotariumForge was not found create_central_kitchen.mixins.json:common.botarium.BotariumForgeMixin
-[21May2025 03:56:20.523] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/integration/MoreRedIntegration (java.lang.ClassNotFoundException: dan200.computercraft.shared.integration.MoreRedIntegration)
-[21May2025 03:56:20.523] [main/WARN] [mixin/]: @Mixin target dan200.computercraft.shared.integration.MoreRedIntegration was not found create_central_kitchen.mixins.json:common.computercraft.MoreRedIntegrationMixin
-[21May2025 03:56:20.638] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/CoffeeBushBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.CoffeeBushBlock)
-[21May2025 03:56:20.638] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.CoffeeBushBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.CoffeeBushBlockMixin
-[21May2025 03:56:20.640] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/CoffeeBushTopBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.CoffeeBushTopBlock)
-[21May2025 03:56:20.641] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.CoffeeBushTopBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.CoffeeBushTopBlockMixin
-[21May2025 03:56:20.642] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/CoffeeDoubleStemBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.CoffeeDoubleStemBlock)
-[21May2025 03:56:20.643] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.CoffeeDoubleStemBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.CoffeeDoubleStemBlockMixin
-[21May2025 03:56:20.645] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/CoffeeMiddleStemBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.CoffeeMiddleStemBlock)
-[21May2025 03:56:20.645] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.CoffeeMiddleStemBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.CoffeeMiddleStemBlockMixin
-[21May2025 03:56:20.646] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/CoffeeStemBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.CoffeeStemBlock)
-[21May2025 03:56:20.647] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.CoffeeStemBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.CoffeeStemBlockMixin
-[21May2025 03:56:20.649] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/entity/KettleBlockEntity (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.entity.KettleBlockEntity)
-[21May2025 03:56:20.649] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.entity.KettleBlockEntity was not found create_central_kitchen.mixins.json:common.farmersrespite.KettleBlockEntityMixin
-[21May2025 03:56:20.651] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/SmallTeaBushBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.SmallTeaBushBlock)
-[21May2025 03:56:20.651] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.SmallTeaBushBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.SmallTeaBushBlockMixin
-[21May2025 03:56:20.653] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/TeaBushBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.TeaBushBlock)
-[21May2025 03:56:20.653] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.TeaBushBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.TeaBushBlockMixin
-[21May2025 03:56:20.655] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/copper_pot/CopperPotBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity)
-[21May2025 03:56:20.655] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.CopperPotBlockEntityMixin
-[21May2025 03:56:20.657] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
-[21May2025 03:56:20.657] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityAccessor
-[21May2025 03:56:20.659] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
-[21May2025 03:56:20.659] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityMixin
-[21May2025 03:56:20.662] [main/WARN] [mixin/]: Error loading class: com/teamabnormals/neapolitan/common/item/DrinkItem (java.lang.ClassNotFoundException: com.teamabnormals.neapolitan.common.item.DrinkItem)
-[21May2025 03:56:20.662] [main/WARN] [mixin/]: @Mixin target com.teamabnormals.neapolitan.common.item.DrinkItem was not found create_central_kitchen.mixins.json:common.neapolitan.DrinkItemMixin
-[21May2025 03:56:20.664] [main/WARN] [mixin/]: Error loading class: net/orcinus/overweightfarming/blocks/CropFullBlock (java.lang.ClassNotFoundException: net.orcinus.overweightfarming.blocks.CropFullBlock)
-[21May2025 03:56:20.664] [main/WARN] [mixin/]: @Mixin target net.orcinus.overweightfarming.blocks.CropFullBlock was not found create_central_kitchen.mixins.json:common.overweightfarming.CropFullBlockMixin
-[21May2025 03:56:20.798] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[21May2025 03:56:27.008] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[21May2025 04:03:17.468] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[21May2025 04:03:17.474] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[21May2025 04:03:18.004] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[21May2025 04:03:18.058] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/remmplazo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[21May2025 04:03:18.524] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/remmplazo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[21May2025 04:03:18.525] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/remmplazo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21May2025 04:03:18.526] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/remmplazo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21May2025 04:03:18.528] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/remmplazo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[21May2025 04:03:18.798] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[21May2025 04:03:18.800] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
+[21May2025 04:03:21.198] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21May2025 04:03:21.300] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[21May2025 04:03:21.341] [main/WARN] [mixin/]: Reference map 'guardribbits.refmap.json' for guardribbits.mixins.json could not be read. If this is a development environment you can ignore this message
+[21May2025 04:03:21.344] [main/WARN] [mixin/]: Reference map 'guardribbits.refmap.json' for guardribbits_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[21May2025 04:03:21.515] [main/WARN] [mixin/]: Reference map 'CreateLiquidFuel.refmap.json' for createliquidfuel.mixins.json could not be read. If this is a development environment you can ignore this message
+[21May2025 04:03:21.529] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 86 options available, 0 override(s) found
+[21May2025 04:03:21.752] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[21May2025 04:03:21.753] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[21May2025 04:03:21.753] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found mixins.create_sa.json:AbstractClientPlayerMixin
+[21May2025 04:03:22.367] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[21May2025 04:03:22.368] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
+[21May2025 04:03:22.400] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
+[21May2025 04:03:22.401] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[21May2025 04:03:22.403] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
+[21May2025 04:03:22.404] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin
+[21May2025 04:03:22.430] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[21May2025 04:03:22.561] [main/WARN] [mixin/]: Error loading class: studio/fantasyit/ars_botania/event/CapEvent (java.lang.ClassNotFoundException: studio.fantasyit.ars_botania.event.CapEvent)
+[21May2025 04:03:22.561] [main/WARN] [mixin/]: @Mixin target studio.fantasyit.ars_botania.event.CapEvent was not found create_central_kitchen.mixins.json:common.arsbotania.CapEventMixin
+[21May2025 04:03:22.565] [main/WARN] [mixin/]: Error loading class: earth/terrarium/botarium/forge/BotariumForge (java.lang.ClassNotFoundException: earth.terrarium.botarium.forge.BotariumForge)
+[21May2025 04:03:22.565] [main/WARN] [mixin/]: @Mixin target earth.terrarium.botarium.forge.BotariumForge was not found create_central_kitchen.mixins.json:common.botarium.BotariumForgeMixin
+[21May2025 04:03:22.568] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/integration/MoreRedIntegration (java.lang.ClassNotFoundException: dan200.computercraft.shared.integration.MoreRedIntegration)
+[21May2025 04:03:22.569] [main/WARN] [mixin/]: @Mixin target dan200.computercraft.shared.integration.MoreRedIntegration was not found create_central_kitchen.mixins.json:common.computercraft.MoreRedIntegrationMixin
+[21May2025 04:03:22.682] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/CoffeeBushBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.CoffeeBushBlock)
+[21May2025 04:03:22.683] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.CoffeeBushBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.CoffeeBushBlockMixin
+[21May2025 04:03:22.685] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/CoffeeBushTopBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.CoffeeBushTopBlock)
+[21May2025 04:03:22.685] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.CoffeeBushTopBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.CoffeeBushTopBlockMixin
+[21May2025 04:03:22.687] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/CoffeeDoubleStemBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.CoffeeDoubleStemBlock)
+[21May2025 04:03:22.687] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.CoffeeDoubleStemBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.CoffeeDoubleStemBlockMixin
+[21May2025 04:03:22.689] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/CoffeeMiddleStemBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.CoffeeMiddleStemBlock)
+[21May2025 04:03:22.690] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.CoffeeMiddleStemBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.CoffeeMiddleStemBlockMixin
+[21May2025 04:03:22.692] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/CoffeeStemBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.CoffeeStemBlock)
+[21May2025 04:03:22.692] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.CoffeeStemBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.CoffeeStemBlockMixin
+[21May2025 04:03:22.695] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/entity/KettleBlockEntity (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.entity.KettleBlockEntity)
+[21May2025 04:03:22.695] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.entity.KettleBlockEntity was not found create_central_kitchen.mixins.json:common.farmersrespite.KettleBlockEntityMixin
+[21May2025 04:03:22.697] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/SmallTeaBushBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.SmallTeaBushBlock)
+[21May2025 04:03:22.701] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.SmallTeaBushBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.SmallTeaBushBlockMixin
+[21May2025 04:03:22.702] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/TeaBushBlock (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.TeaBushBlock)
+[21May2025 04:03:22.703] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.TeaBushBlock was not found create_central_kitchen.mixins.json:common.farmersrespite.TeaBushBlockMixin
+[21May2025 04:03:22.706] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/copper_pot/CopperPotBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity)
+[21May2025 04:03:22.706] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.CopperPotBlockEntityMixin
+[21May2025 04:03:22.709] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
+[21May2025 04:03:22.710] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityAccessor
+[21May2025 04:03:22.713] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
+[21May2025 04:03:22.713] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityMixin
+[21May2025 04:03:22.715] [main/WARN] [mixin/]: Error loading class: com/teamabnormals/neapolitan/common/item/DrinkItem (java.lang.ClassNotFoundException: com.teamabnormals.neapolitan.common.item.DrinkItem)
+[21May2025 04:03:22.716] [main/WARN] [mixin/]: @Mixin target com.teamabnormals.neapolitan.common.item.DrinkItem was not found create_central_kitchen.mixins.json:common.neapolitan.DrinkItemMixin
+[21May2025 04:03:22.718] [main/WARN] [mixin/]: Error loading class: net/orcinus/overweightfarming/blocks/CropFullBlock (java.lang.ClassNotFoundException: net.orcinus.overweightfarming.blocks.CropFullBlock)
+[21May2025 04:03:22.718] [main/WARN] [mixin/]: @Mixin target net.orcinus.overweightfarming.blocks.CropFullBlock was not found create_central_kitchen.mixins.json:common.overweightfarming.CropFullBlockMixin
+[21May2025 04:03:22.832] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21May2025 04:03:28.820] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[21May2025 03:56:27.640] [modloading-worker-0/INFO] [guardribbits/]: Initializing the Ribbit Guardians!
-[21May2025 03:56:27.836] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.4 initializing! Commit hash: 254bb816aee1c056c74b2ad4beb88222a499da78
-[21May2025 03:56:28.686] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[21May2025 03:56:29.745] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[21May2025 03:56:29.745] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[21May2025 03:56:34.199] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[21May2025 03:56:34.670] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[21May2025 03:56:34.873] [main/INFO] [journeymap/]: Initializing Packet Registries
-[21May2025 03:56:34.955] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
-[21May2025 03:56:34.955] [main/INFO] [ribbits/]: Registering Ribbit professions...
-[21May2025 03:56:34.956] [main/INFO] [ribbits/]: Registering Ribbit instruments...
-[21May2025 03:56:34.957] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[21May2025 03:56:34.957] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[21May2025 03:56:34.957] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
-[21May2025 03:56:35.090] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[21May2025 03:56:35.090] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sliceanddice] Starting version check at https://api.modrinth.com/updates/slice-and-dice/forge_updates.json
-[21May2025 03:56:35.165] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sliceanddice] Found status: UP_TO_DATE Current: 3.4.0 Target: null
-[21May2025 03:56:35.166] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
-[21May2025 03:56:35.200] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Found status: OUTDATED Current: 1.0.1-mc1.20.1 Target: 1.0.3-mc1.20.1
-[21May2025 03:56:38.484] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21May2025 03:56:40.653] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/remmplazo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/assets/.mcassetsroot' uses unexpected schema
-[21May2025 03:56:40.654] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/remmplazo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/data/.mcassetsroot' uses unexpected schema
-[21May2025 03:56:40.738] [main/INFO] [com.simibubi.create.Create/]: Created 169 recipes which will be injected into the game
-[21May2025 03:56:40.768] [main/INFO] [com.simibubi.create.Create/]: Created 2 tags which will be injected into the game
-[21May2025 03:56:42.077] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[21May2025 03:56:42.820] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:dungeons_and_combat:chests/blazing_fortress_loot
+[21May2025 04:03:29.413] [modloading-worker-0/INFO] [guardribbits/]: Initializing the Ribbit Guardians!
+[21May2025 04:03:29.637] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.4 initializing! Commit hash: 254bb816aee1c056c74b2ad4beb88222a499da78
+[21May2025 04:03:30.311] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[21May2025 04:03:31.456] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[21May2025 04:03:31.456] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[21May2025 04:03:36.063] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[21May2025 04:03:36.529] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[21May2025 04:03:36.722] [main/INFO] [journeymap/]: Initializing Packet Registries
+[21May2025 04:03:36.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[21May2025 04:03:36.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21May2025 04:03:36.805] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[21May2025 04:03:36.805] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[21May2025 04:03:36.805] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[21May2025 04:03:36.808] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[21May2025 04:03:36.940] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[21May2025 04:03:36.940] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sliceanddice] Starting version check at https://api.modrinth.com/updates/slice-and-dice/forge_updates.json
+[21May2025 04:03:37.131] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sliceanddice] Found status: UP_TO_DATE Current: 3.4.0 Target: null
+[21May2025 04:03:37.131] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
+[21May2025 04:03:37.172] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_connected] Found status: OUTDATED Current: 1.0.1-mc1.20.1 Target: 1.0.3-mc1.20.1
+[21May2025 04:03:40.183] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21May2025 04:03:42.278] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/remmplazo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/assets/.mcassetsroot' uses unexpected schema
+[21May2025 04:03:42.278] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/remmplazo/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23169!/data/.mcassetsroot' uses unexpected schema
+[21May2025 04:03:42.348] [main/INFO] [com.simibubi.create.Create/]: Created 169 recipes which will be injected into the game
+[21May2025 04:03:42.358] [main/INFO] [com.simibubi.create.Create/]: Created 2 tags which will be injected into the game
+[21May2025 04:03:43.586] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[21May2025 04:03:44.194] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:dungeons_and_combat:chests/blazing_fortress_loot
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dungeons_and_combat:deleted_mod_element'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -136,9 +136,9 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[21May2025 03:56:43.118] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_compat as it's serializer returned null
-[21May2025 03:56:43.118] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_compat as it's serializer returned null
-[21May2025 03:56:43.126] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:light_upgrade_molten_bone_greatsword
+[21May2025 04:03:44.488] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_slab_compat as it's serializer returned null
+[21May2025 04:03:44.488] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_compat as it's serializer returned null
+[21May2025 04:03:44.499] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:light_upgrade_molten_bone_greatsword
 com.google.gson.JsonSyntaxException: Unknown item 'dungeons_and_combat:deleted_mod_element'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23174!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23174!/:?]
@@ -171,10 +171,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'dungeons_and_combat:deleted_m
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21May2025 03:56:43.129] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_gate_compat as it's serializer returned null
-[21May2025 03:56:43.157] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step_compat as it's serializer returned null
-[21May2025 03:56:43.188] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_wall_compat as it's serializer returned null
-[21May2025 03:56:43.191] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
+[21May2025 04:03:44.502] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_fence_gate_compat as it's serializer returned null
+[21May2025 04:03:44.547] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_vertical_step_compat as it's serializer returned null
+[21May2025 04:03:44.583] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_wall_compat as it's serializer returned null
+[21May2025 04:03:44.585] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
 com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -212,10 +212,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_ri
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21May2025 03:56:43.193] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block_compat as it's serializer returned null
-[21May2025 03:56:43.226] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_beam_compat as it's serializer returned null
-[21May2025 03:56:43.242] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_board_compat as it's serializer returned null
-[21May2025 03:56:43.252] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:light_upgrade_blazing_halberd
+[21May2025 04:03:44.587] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_block_compat as it's serializer returned null
+[21May2025 04:03:44.619] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_beam_compat as it's serializer returned null
+[21May2025 04:03:44.633] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_board_compat as it's serializer returned null
+[21May2025 04:03:44.643] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:light_upgrade_blazing_halberd
 com.google.gson.JsonSyntaxException: Unknown item 'dungeons_and_combat:deleted_mod_element'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -253,7 +253,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'dungeons_and_combat:deleted_m
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21May2025 03:56:43.260] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_sa:andesite_exoskeleton_recipe
+[21May2025 04:03:44.649] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_sa:andesite_exoskeleton_recipe
 com.google.gson.JsonSyntaxException: Missing item, expected to find a string
 	at net.minecraft.util.GsonHelper.m_13906_(GsonHelper.java:127) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:185) ~[forge-1.20.1-47.3.7-universal.jar%23174!/:?]
@@ -287,13 +287,13 @@ com.google.gson.JsonSyntaxException: Missing item, expected to find a string
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21May2025 03:56:43.262] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_stairs_compat as it's serializer returned null
-[21May2025 03:56:43.270] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 32 recipes
-[21May2025 03:56:43.273] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
-[21May2025 03:56:43.439] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3091 advancements
-[21May2025 03:56:43.449] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[21May2025 03:56:43.454] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[21May2025 03:56:43.466] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+[21May2025 04:03:44.651] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe create_connected:crafting/palettes/copycat_stairs_compat as it's serializer returned null
+[21May2025 04:03:44.659] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 32 recipes
+[21May2025 04:03:44.661] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
+[21May2025 04:03:44.826] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3091 advancements
+[21May2025 04:03:44.838] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[21May2025 04:03:44.844] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[21May2025 04:03:44.859] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
@@ -354,8 +354,8 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21May2025 03:56:43.468] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_leather - error: Unknown type 'minecraft:alternatives'
-[21May2025 03:56:43.469] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+[21May2025 04:03:44.861] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_leather - error: Unknown type 'minecraft:alternatives'
+[21May2025 04:03:44.862] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
@@ -416,48 +416,410 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[21May2025 03:56:43.470] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_string - error: Unknown type 'minecraft:alternative'
-[21May2025 03:56:45.335] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[21May2025 03:56:45.335] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[21May2025 03:56:45.335] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[21May2025 03:56:45.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[21May2025 03:56:45.492] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[21May2025 03:56:45.526] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[21May2025 03:56:45.599] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21May2025 03:56:45.600] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[21May2025 03:56:45.600] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21May2025 03:56:45.601] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[21May2025 03:56:45.622] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[21May2025 03:56:45.740] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[21May2025 03:56:49.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[21May2025 03:56:54.522] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 03:56:54.523] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 03:56:54.524] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 03:56:54.524] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 03:56:54.525] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 03:56:54.525] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 03:56:54.526] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 03:56:54.529] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 03:56:54.529] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 03:56:54.531] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 03:56:54.532] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 03:56:54.801] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[21May2025 03:56:55.301] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[21May2025 03:56:55.591] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6291 ms
-[21May2025 03:56:55.593] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.976s)! For help, type "help"
-[21May2025 03:56:55.643] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[21May2025 03:56:55.669] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[21May2025 03:56:55.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[21May2025 03:56:55.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: home/codespace/.python/current/bin/python /workspaces/remmplazo/msx.py<--[HERE]
-[21May2025 03:57:57.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[21May2025 03:57:57.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[21May2025 03:57:57.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[21May2025 03:57:57.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[21May2025 03:57:57.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21May2025 03:57:58.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[21May2025 03:57:58.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21May2025 03:57:58.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21May2025 03:57:58.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21May2025 03:57:58.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21May2025 03:57:58.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21May2025 03:57:58.154] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21May2025 04:03:44.863] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_string - error: Unknown type 'minecraft:alternative'
+[21May2025 04:03:46.713] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[21May2025 04:03:46.713] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21May2025 04:03:46.714] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21May2025 04:03:46.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21May2025 04:03:46.918] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21May2025 04:03:46.939] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21May2025 04:03:47.030] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21May2025 04:03:47.032] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21May2025 04:03:47.033] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21May2025 04:03:47.143] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21May2025 04:03:50.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21May2025 04:03:54.153] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 04:03:54.171] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 04:03:54.179] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 04:03:54.192] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 04:03:54.201] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 04:03:54.208] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 04:03:54.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 04:03:54.225] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 04:03:54.665] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21May2025 04:03:55.165] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[21May2025 04:03:55.586] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4922 ms
+[21May2025 04:03:55.587] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.561s)! For help, type "help"
+[21May2025 04:03:55.681] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21May2025 04:03:55.711] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[21May2025 04:04:03.208] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
+[21May2025 04:04:08.886] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:41121] logged in with entity id 67 at (2970.015469728507, 64.0, -2612.762499988079)
+[21May2025 04:04:08.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
+[21May2025 04:04:10.959] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2087ms or 41 ticks behind
+[21May2025 04:05:22.010] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player YamadaH2O is 92efd7a6-88fb-4f9b-8f48-624fdc0e1355
+[21May2025 04:05:25.608] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YamadaH2O[/127.176.151.104:45421] logged in with entity id 496 at (649.6770219867163, 176.0, -982.467163352255)
+[21May2025 04:05:25.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O joined the game
+[21May2025 04:05:33.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Mandester> discord
+[21May2025 04:05:34.865] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YamadaH2O lost connection: Disconnected
+[21May2025 04:05:34.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O left the game
+[21May2025 04:05:46.430] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player YamadaH2O is 92efd7a6-88fb-4f9b-8f48-624fdc0e1355
+[21May2025 04:05:49.409] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YamadaH2O[/127.176.151.104:52869] logged in with entity id 739 at (649.6770219867163, 176.0, -982.467163352255)
+[21May2025 04:05:49.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O joined the game
+[21May2025 04:05:56.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Mandester> discord
+[21May2025 04:05:57.138] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YamadaH2O lost connection: Disconnected
+[21May2025 04:05:57.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O left the game
+[21May2025 04:06:04.554] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player YamadaH2O is 92efd7a6-88fb-4f9b-8f48-624fdc0e1355
+[21May2025 04:06:07.445] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YamadaH2O[/127.176.151.104:41063] logged in with entity id 925 at (649.6770219867163, 176.0, -982.467163352255)
+[21May2025 04:06:07.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O joined the game
+[21May2025 04:06:25.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Mandester> discord
+[21May2025 04:06:26.138] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YamadaH2O lost connection: Disconnected
+[21May2025 04:06:26.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O left the game
+[21May2025 04:07:06.028] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player YamadaH2O is 92efd7a6-88fb-4f9b-8f48-624fdc0e1355
+[21May2025 04:07:09.098] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YamadaH2O[/127.176.151.104:51703] logged in with entity id 1218 at (652.124215456502, 176.0, -981.7152563064461)
+[21May2025 04:07:09.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O joined the game
+[21May2025 04:10:26.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Mandester> discord
+[21May2025 04:10:26.989] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YamadaH2O lost connection: Disconnected
+[21May2025 04:10:26.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O left the game
+[21May2025 04:10:34.532] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player YamadaH2O is 92efd7a6-88fb-4f9b-8f48-624fdc0e1355
+[21May2025 04:10:37.695] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YamadaH2O[/127.176.151.104:36803] logged in with entity id 2118 at (645.5611098722165, 178.0, -977.8610906331633)
+[21May2025 04:10:37.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O joined the game
+[21May2025 04:27:18.211] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 9.34007439466427,-1.1966472137283688,3.3815155546847677
+[21May2025 04:27:18.212] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 10.188189903792363,-1.3054333240674225,3.6956464315321114
+[21May2025 04:27:18.212] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 11.036210596799947,-1.4142194344064762,4.010426080035586
+[21May2025 04:27:18.213] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 11.884146732788736,-1.52300554474553,4.325784303118667
+[21May2025 04:27:18.213] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 12.732007460826026,-1.6317916550845837,4.641658499026676
+[21May2025 04:27:18.213] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 13.579800940050177,-1.7405777654236374,4.957992839513281
+[21May2025 04:27:18.214] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 14.427534446781124,-1.8493638757626911,5.274737536946873
+[21May2025 04:27:18.214] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 15.275214470041078,-1.9581499861017448,5.591848190716348
+[21May2025 04:27:18.214] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 16.12284679674019,-2.0669360964407986,5.909285204355513
+[21May2025 04:27:18.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 16.970436587645054,-2.1757222067798523,6.227013265734911
+[21May2025 04:27:18.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 17.81798844512764,-2.284508317118906,6.545000883496527
+[21May2025 04:27:18.216] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 18.656155115669094,-2.213696365143008,6.859686589703301
+[21May2025 04:27:18.216] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 19.48595207625533,-2.039392823724512,7.171427651100657
+[21May2025 04:27:18.216] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 20.308284929288334,-1.7692256384685123,7.480542678181223
+[21May2025 04:27:18.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 21.12396129101353,-1.4069910078790855,7.787315807790662
+[21May2025 04:27:18.218] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 21.942593219971968,-1.135932863385463,8.09672616629507
+[21May2025 04:27:18.218] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 22.763477901066608,-0.9524406178425266,8.409448363347678
+[21May2025 04:27:18.219] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 23.58617985320734,-0.8530466632886089,8.725593817702304
+[21May2025 04:27:18.219] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 24.410502447713725,-0.834420708972516,9.044792133006865
+[21May2025 04:27:18.219] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 25.236270331123478,-0.8697868897457397,9.366712989785015
+[21May2025 04:27:18.220] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 26.06332712321432,-0.9362654990483605,9.691061809119276
+[21May2025 04:27:18.220] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 26.891533364100155,-1.0206723345156945,10.017575885523513
+[21May2025 04:27:18.221] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 27.720764683450852,-1.1154101312292397,10.346020938238382
+[21May2025 04:27:18.222] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 28.55091016780284,-1.2161010411671782,10.676188035676716
+[21May2025 04:27:18.273] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 20.890018338925188,-0.23236126974698834,7.939778689229399
+[21May2025 04:27:18.307] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 21.721706117734925,-0.33845934814583245,8.272851060911478
+[21May2025 04:28:26.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 0.2619333178499801
+[21May2025 04:28:26.342] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 0.5930032606997884
+[21May2025 04:28:26.343] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 0.98572924750124
+[21May2025 04:29:55.248] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -5.563420898578784,-0.8022582427133642,-8.376729976182162
+[21May2025 04:29:55.249] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -5.755564721924628,-0.8022582427133642,-8.609569772047848
+[21May2025 04:29:55.249] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -5.9265821773460345,-0.8022582427133642,-8.80452859323492
+[21May2025 04:29:55.249] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -6.086295334505394,-0.8022582427133642,-8.979218060136645
+[21May2025 04:29:55.250] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -6.239959787048122,-0.8022582427133642,-9.143061799687587
+[21May2025 04:29:55.250] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -6.390387698348661,-0.8022582427133642,-9.301102206773606
+[21May2025 04:29:55.251] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -6.539083800960185,-0.8022582427133642,-9.456037366363603
+[21May2025 04:29:55.251] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -6.686853247270733,-0.8022582427133642,-9.609310969930448
+[21May2025 04:29:55.251] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -6.834126858270167,-0.8022582427133642,-9.76169550799716
+[21May2025 04:29:55.252] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -6.980020307359553,-0.8022582427133642,-9.914667988240808
+[21May2025 04:29:55.252] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.106862409654212,-0.8022582427133642,-10.081519119695486
+[21May2025 04:29:55.252] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.202325670125163,-0.8022582427133642,-10.264833201581894
+[21May2025 04:29:55.253] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.27578466546683,-0.8022582427133642,-10.45833162111353
+[21May2025 04:29:55.253] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.336728011471365,-0.8022582427133642,-10.657450380115506
+[21May2025 04:29:55.254] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.390470176806417,-0.8022582427133642,-10.859689236145869
+[21May2025 04:29:55.254] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.4368410553442175,-0.8022582427133642,-11.064307207116485
+[21May2025 04:29:55.255] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.474953811132536,-0.8022582427133642,-11.270887428145528
+[21May2025 04:29:55.255] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.508396430200833,-0.8022582427133642,-11.47855171130675
+[21May2025 04:29:55.255] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.539340152222735,-0.8022582427133642,-11.68679605450103
+[21May2025 04:29:55.256] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.568946764257731,-0.8022582427133642,-11.89535077625385
+[21May2025 04:29:55.256] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.597837915397832,-0.8022582427133642,-12.104071575385063
+[21May2025 04:29:55.257] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.627109407916578,-0.8022582427133642,-12.312775652677828
+[21May2025 04:29:55.257] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.658358651038753,-0.8022582427133642,-12.52120159987615
+[21May2025 04:29:55.257] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.691176111116533,-0.8022582427133642,-12.72939518941294
+[21May2025 04:29:55.258] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.724832692820399,-0.8022582427133642,-12.937464448997758
+[21May2025 04:29:55.258] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.758938271776117,-0.8022582427133642,-13.145467182104142
+[21May2025 04:29:55.259] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.793284100209235,-0.8022582427133642,-13.35343431821832
+[21May2025 04:29:55.259] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.82825873814167,-0.8022582427133642,-13.56129777898363
+[21May2025 04:29:55.259] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.864078900526266,-0.8022582427133642,-13.76901690211858
+[21May2025 04:29:55.260] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.90211553655277,-0.8022582427133642,-13.976329392991431
+[21May2025 04:29:55.260] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.944095920864015,-0.8022582427133642,-14.182841859790898
+[21May2025 04:31:41.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 0.6617461628133583,4.884174036411565,-9.475325044259648
+[21May2025 04:31:41.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 0.7278889762726521,5.09750073472398,-10.346219036694038
+[21May2025 04:31:41.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 0.7948151319100134,5.2255476982753635,-11.220560144615774
+[21May2025 04:31:41.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 0.8624398721219109,5.271692002968194,-12.097975390217698
+[21May2025 04:31:41.210] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 0.9306876100753243,5.252182996724713,-12.978132151881823
+[21May2025 04:31:41.211] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 0.9994909374306076,5.1948419258509375,-13.860733797640705
+[21May2025 04:31:41.211] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 1.0687897394287802,5.115700505630343,-14.745515791098114
+[21May2025 04:31:41.212] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 1.1385304057262715,5.023996851857618,-15.632242218689157
+[21May2025 04:31:41.213] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 1.208665126617177,4.925054336481935,-16.52070269269052
+[21May2025 04:31:41.213] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 1.2791512654046642,4.821940499414978,-17.410709589325165
+[21May2025 04:31:41.214] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 1.3499507986813342,4.716422979889842,-18.30209558570391
+[21May2025 04:31:41.251] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 0.8245480845975521,0.027469081215656388,-10.586415065640608
+[21May2025 04:31:41.300] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 0.8958763480083007,-0.08023168520699642,-11.480127751280975
+[21May2025 04:34:52.232] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 9.719289266222631,-1.3054333240686447,2.046572798557577
+[21May2025 04:34:52.233] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! 10.448115067926437,-1.4142194344076984,2.4579007891090896
+[21May2025 04:35:06.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Set the time to 1000]
+[21May2025 04:45:46.812] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-201}
+[21May2025 04:45:46.813] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-58, z=-205}
+[21May2025 04:45:47.977] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
+[21May2025 04:45:47.977] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-57, z=-243}
+[21May2025 04:45:47.977] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
+[21May2025 04:45:48.065] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-193, y=-45, z=-211}
+[21May2025 04:45:48.065] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-210}
+[21May2025 04:45:48.066] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-49, z=-219}
+[21May2025 04:45:48.066] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-211}
+[21May2025 04:45:48.066] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=-45, z=-211}
+[21May2025 04:48:18.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 04:48:57.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 04:48:59.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was doomed to fall by Creeper
+[21May2025 04:49:03.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 04:52:47.777] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-151}
+[21May2025 04:52:47.778] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-143}
+[21May2025 04:52:47.779] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
+[21May2025 04:52:48.929] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-176, y=-50, z=-133}
+[21May2025 04:52:48.929] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-50, z=-135}
+[21May2025 04:53:07.202] [Server thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Found alexscaves:abyssal_chasm at -7464 2 -3611 in 3s
+[21May2025 04:56:26.479] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-19, y=-42, z=-299}
+[21May2025 04:56:58.332] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-201}
+[21May2025 04:56:58.332] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-58, z=-205}
+[21May2025 04:56:58.347] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-193, y=-45, z=-211}
+[21May2025 04:56:58.347] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-210}
+[21May2025 04:56:58.347] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-49, z=-219}
+[21May2025 04:56:58.348] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-211}
+[21May2025 04:56:58.348] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=-45, z=-211}
+[21May2025 05:02:24.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Mandester> hey
+[21May2025 05:02:24.785] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YamadaH2O lost connection: Disconnected
+[21May2025 05:02:24.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O left the game
+[21May2025 05:02:35.882] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@274e5244[id=<null>,name=YamadaH2O,properties={},legacy=false] (/127.176.151.104:51825) lost connection: Disconnected
+[21May2025 05:02:52.281] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3bc222a3[id=<null>,name=YamadaH2O,properties={},legacy=false] (/127.176.151.104:56799) lost connection: Disconnected
+[21May2025 05:04:00.766] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-19, y=-42, z=-299}
+[21May2025 05:04:39.180] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7ed9ae7d[id=<null>,name=YamadaH2O,properties={},legacy=false] (/127.176.151.104:33713) lost connection: Disconnected
+[21May2025 05:05:18.579] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5ca995c0[id=<null>,name=YamadaH2O,properties={},legacy=false] (/127.176.151.104:51397) lost connection: Disconnected
+[21May2025 05:05:52.778] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@54dc9589[id=<null>,name=YamadaH2O,properties={},legacy=false] (/127.176.151.104:35871) lost connection: Disconnected
+[21May2025 05:06:09.135] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@54be4f22[id=<null>,name=YamadaH2O,properties={},legacy=false] (/127.176.151.104:45047) lost connection: Disconnected
+[21May2025 05:06:12.227] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@25364566[id=<null>,name=YamadaH2O,properties={},legacy=false] (/127.176.151.104:58447) lost connection: Disconnected
+[21May2025 05:06:14.545] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7da9dd1d[id=<null>,name=YamadaH2O,properties={},legacy=false] (/127.176.151.104:60519) lost connection: Disconnected
+[21May2025 05:07:19.546] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-45, z=-412}
+[21May2025 05:07:19.546] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-23, y=-45, z=-416}
+[21May2025 05:09:34.733] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player YamadaH2O is 92efd7a6-88fb-4f9b-8f48-624fdc0e1355
+[21May2025 05:09:38.951] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YamadaH2O[/127.176.151.104:37697] logged in with entity id 46034 at (-315.5319068729686, 247.0, -735.5325045863761)
+[21May2025 05:09:38.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O joined the game
+[21May2025 05:10:29.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Set the time to 1000]
+[21May2025 05:10:45.211] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=15, y=-40, z=-499}
+[21May2025 05:10:45.211] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=15, y=-40, z=-503}
+[21May2025 05:13:16.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has reached the goal [Beyond the Sea]
+[21May2025 05:13:21.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved wrongly! 0.3038924869808852
+[21May2025 05:13:21.087] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved wrongly! 0.6117296291874336
+[21May2025 05:13:21.134] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved wrongly! 0.9691593066727153
+[21May2025 05:14:00.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Mandester> +--
+[21May2025 05:14:15.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [The Shadow Over Mine's Craft]
+[21May2025 05:14:55.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Applied effect Night Vision to Mandester]
+[21May2025 05:15:59.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Shell City]
+[21May2025 05:16:29.255] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved wrongly! 0.31561138208348893
+[21May2025 05:16:29.344] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved wrongly! 0.8246607459645929
+[21May2025 05:16:29.356] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved wrongly! 1.097042911227959
+[21May2025 05:16:29.415] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved wrongly! 1.2427891771459372
+[21May2025 05:17:25.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has reached the goal [Captain Nemo]
+[21May2025 05:23:25.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Set the time to 1000]
+[21May2025 05:24:37.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester drowned whilst trying to escape Drowned
+[21May2025 05:26:03.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Diamonds of the Sea]
+[21May2025 05:26:28.688] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=49, y=-48, z=-413}
+[21May2025 05:26:28.688] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=49, y=-48, z=-415}
+[21May2025 05:27:02.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Applied effect Night Vision to Mandester]
+[21May2025 05:27:49.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was blown up by Mine Guardian
+[21May2025 05:27:58.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Applied effect Night Vision to Mandester]
+[21May2025 05:28:11.695] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved wrongly! 0.2565721743313816
+[21May2025 05:28:11.752] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved wrongly! 0.4153181003090367
+[21May2025 05:28:11.796] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved wrongly! 0.55688772117594
+[21May2025 05:28:11.860] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved wrongly! 0.6326388027080725
+[21May2025 05:29:32.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 05:30:26.398] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -4.796830268425651,7.511192224633845,4.692481068022062
+[21May2025 05:30:29.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 05:30:41.032] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YamadaH2O lost connection: Disconnected
+[21May2025 05:30:41.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O left the game
+[21May2025 05:30:41.082] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[21May2025 05:30:58.828] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player YamadaH2O is 92efd7a6-88fb-4f9b-8f48-624fdc0e1355
+[21May2025 05:31:09.690] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YamadaH2O[/127.176.151.104:37579] logged in with entity id 66097 at (-400.4474775154713, 170.0, -1552.1889508045317)
+[21May2025 05:31:09.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O joined the game
+[21May2025 05:31:28.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 05:33:13.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 05:34:31.934] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved too quickly! 0.9417734983769606,-1.0878611033905372,10.05614100482319
+[21May2025 05:40:12.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [We Need to Go Deeper]
+[21May2025 05:40:13.642] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2770ms or 55 ticks behind
+[21May2025 05:41:01.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Nightmare Fuel]
+[21May2025 05:48:00.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Applied effect Night Vision to Mandester]
+[21May2025 05:52:42.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has completed the challenge [Hot Tourist Destinations]
+[21May2025 05:54:18.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [A Terrible Fortress]
+[21May2025 05:56:01.154] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=631, y=80, z=397} BlockPos{x=631, y=81, z=397}
+[21May2025 05:56:01.202] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=631, y=80, z=397} BlockPos{x=631, y=81, z=397}
+[21May2025 05:56:05.560] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=631, y=85, z=399} BlockPos{x=631, y=86, z=400}
+[21May2025 05:56:05.615] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=631, y=85, z=399} BlockPos{x=631, y=86, z=400}
+[21May2025 05:56:05.662] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=631, y=85, z=399} BlockPos{x=631, y=86, z=400}
+[21May2025 05:56:05.710] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=631, y=85, z=399} BlockPos{x=631, y=86, z=400}
+[21May2025 05:56:05.784] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=631, y=87, z=402} BlockPos{x=631, y=86, z=400}
+[21May2025 05:56:05.813] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=631, y=87, z=402} BlockPos{x=631, y=86, z=400}
+[21May2025 05:56:23.762] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -5.25338091837159,-1.3054333240555778,9.044087007941584
+[21May2025 05:56:23.762] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -5.622257791633388,-1.4142194343946173,9.851224516124262
+[21May2025 05:56:23.763] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -5.984228557817573,-1.523005544733664,10.66330425327942
+[21May2025 05:56:23.763] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -6.340040457532496,-1.6317916550727105,11.47979147035926
+[21May2025 05:56:23.763] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -6.690359879971766,-1.7405777654117571,12.300209278149282
+[21May2025 05:56:23.763] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.036019860667011,-1.8493638757508037,13.124046637206561
+[21May2025 05:56:23.763] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.378248270955282,-1.9581499860898504,13.950669346349287
+[21May2025 05:56:23.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -7.719093930515896,-2.066936096428897,14.779138621299353
+[21May2025 05:56:23.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -8.059423011423064,-2.1757222067679436,15.608971602288989
+[21May2025 05:56:23.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -8.399770770097348,-2.28450831710699,16.439827729599187
+[21May2025 05:56:23.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -8.7413160888417,-2.393294427446037,17.271108215206596
+[21May2025 05:56:23.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -9.08604888536388,-2.5020805377850834,18.10184532920016
+[21May2025 05:56:23.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -9.434795034547165,-2.61086664812413,18.931562904682323
+[21May2025 05:56:23.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -9.745806859352115,-2.7196527584631767,19.671505059822266
+[21May2025 05:56:23.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -10.023167212706653,-2.8284388688022233,20.331385492793743
+[21May2025 05:56:23.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -10.270517182956837,-2.93722497914127,20.919866879877645
+[21May2025 05:56:23.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -10.491103892783144,-3.0460110894803165,21.444674596003892
+[21May2025 05:56:23.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -10.731352035845362,-3.154797199819363,21.769163733093137
+[21May2025 05:56:23.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -10.987030786142213,-3.2635833101584097,21.742992522798886
+[21May2025 05:56:23.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -11.244339918000492,-3.3723694204974564,21.680374364827003
+[21May2025 05:56:23.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -11.488189421521042,-3.481155530836503,21.577689405708952
+[21May2025 05:56:23.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -11.718804818681406,-3.5899416411755496,21.438912551539715
+[21May2025 05:56:23.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -11.938236876648716,-3.698727751514596,21.268125738792378
+[21May2025 05:56:23.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -12.241746853700988,-3.807513861853643,21.096330925867505
+[21May2025 05:56:23.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -12.620237521154195,-3.9162999721926894,20.923637178358263
+[21May2025 05:56:23.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -13.064620372520949,-4.025086082531736,20.745355935725456
+[21May2025 05:56:23.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -13.561096963386149,-4.133872192870783,20.54198252428273
+[21May2025 05:56:23.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -14.087481972332967,-4.242658303209829,20.2898221842986
+[21May2025 05:56:23.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -14.650018815426506,-4.351444413548876,20.03436540552002
+[21May2025 05:56:23.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -15.245110346648971,-4.4602305238879225,19.776943502287168
+[21May2025 05:56:23.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -15.869234149581416,-4.569016634226969,19.517769101015347
+[21May2025 05:56:23.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -16.51924893317107,-4.677802744566016,19.25703182194752
+[21May2025 05:56:23.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -17.192353293976225,-4.786588854905062,18.994900768420848
+[21May2025 05:56:23.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -17.8865028701332,-4.895374965244109,18.73299923674017
+[21May2025 05:56:24.346] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -13.723627687560565,-3.8075138618666173,10.232267191948267
+[21May2025 05:56:24.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -14.457700740496648,-3.916299972205664,9.991418536074889
+[21May2025 05:56:24.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -15.207712564969029,-4.025086082544711,9.799200256827476
+[21May2025 05:56:24.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -15.96368266108334,-4.133872192883757,9.672679103745054
+[21May2025 05:56:24.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -16.72049122389899,-4.242658303222804,9.612531068553835
+[21May2025 05:56:24.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -17.47804753134028,-4.35144441356185,9.611574581603918
+[21May2025 05:56:24.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -18.236270677458037,-4.460230523900897,9.664258113983351
+[21May2025 05:56:24.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -18.995088510324535,-4.569016634239944,9.763924821892942
+[21May2025 05:56:24.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -19.754300028679154,-4.67780274457899,9.905704858482409
+[21May2025 05:56:24.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -20.51142863721293,-4.786588854918037,10.088657971500993
+[21May2025 05:56:24.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -21.262510048763602,-4.8953749652570835,10.313840734135624
+[21May2025 05:56:24.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -22.00721399124609,-5.00416107559613,10.577869171879001
+[21May2025 05:56:24.349] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -22.746060549482763,-5.112947185935177,10.876740994360603
+[21May2025 05:56:24.349] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -23.47968349229859,-5.221733296274223,11.206686148247286
+[21May2025 05:56:24.349] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -24.201025894387612,-5.150921344298318,11.557873936674468
+[21May2025 05:56:24.349] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -24.91141650994075,-4.976617802879815,11.928005907130796
+[21May2025 05:56:24.349] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -25.612040321979862,-4.706450617623808,12.315032299607651
+[21May2025 05:56:24.349] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -26.303954098394,-4.3442159870343815,12.717125138076653
+[21May2025 05:56:24.350] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -26.99572238517419,-4.073157842540759,13.13912279667386
+[21May2025 05:56:24.350] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -27.68736092429515,-3.8896655969978227,13.578871574372897
+[21May2025 05:56:24.350] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -28.378883754450158,-3.790271642443905,14.034450800543254
+[21May2025 05:56:25.110] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -29.0703033953464,-3.771645688127812,14.50414762106709
+[21May2025 05:56:25.110] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -29.76163101205907,-3.8070118689010286,14.986434512598294
+[21May2025 05:56:25.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -30.458662570397678,-3.8734904782036423,15.472420476595744
+[21May2025 05:56:25.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -31.166179993904393,-3.957897313670969,15.95298621267375
+[21May2025 05:56:25.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -31.88353687763299,-4.0526351103845215,16.427817905867187
+[21May2025 05:56:25.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -32.60966859224027,-4.15332602032246,16.897535979468785
+[21May2025 05:56:25.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -33.343625701250744,-4.257447352291585,17.36269372698689
+[21May2025 05:56:25.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -34.08456149719109,-4.363545430690429,17.823784575586615
+[21May2025 05:56:25.112] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -34.83172088631477,-4.470782589474112,18.281248563626264
+[21May2025 05:56:25.112] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -35.5844304759994,-4.578676131951525,18.73547811732533
+[21May2025 05:56:25.112] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -36.342089734686965,-4.686947908975974,19.18682320239634
+[21May2025 05:56:25.112] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -37.10416310831852,-4.795437639880049,19.635595918270724
+[21May2025 05:56:25.112] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -37.8705340202423,-4.904052964530166,20.081393983834005
+[21May2025 05:56:25.113] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -38.64223834660902,-5.0127406613219065,20.521560741638154
+[21May2025 05:56:25.113] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -39.41892244013161,-5.12147006183735,20.956239536254316
+[21May2025 05:56:25.113] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -40.221116524478475,-5.230223493707008,21.341785087441053
+[21May2025 05:56:25.113] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -41.02499138495136,-5.33899077340449,21.72775268859209
+[21May2025 05:56:25.113] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -41.82934682051723,-5.447766032774432,22.11617151411167
+[21May2025 05:56:25.113] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -42.54667101862799,-5.556545890350918,22.46256343269306
+[21May2025 05:56:25.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -43.18638075693946,-5.665328397598003,22.77147575458673
+[21May2025 05:56:25.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -43.75687391800716,-5.7741124316913,23.04696377119103
+[21May2025 05:56:25.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -44.26563973370992,-5.882897345614474,23.292643991479167
+[21May2025 05:56:25.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of YamadaH2O) moved too quickly! -44.71935710122966,-5.991682766530822,23.51174161824656
+[21May2025 05:57:24.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester burned to death
+[21May2025 06:06:52.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Creative Mode]
+[21May2025 06:07:30.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Survival Mode]
+[21May2025 06:09:06.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Those Were the Days]
+[21May2025 06:09:50.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O has made the advancement [We Need to Go Deeper]
+[21May2025 06:10:56.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was slain by Piglin Brute
+[21May2025 06:11:11.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was slain by Piglin Brute
+[21May2025 06:11:33.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was slain by Piglin
+[21May2025 06:12:41.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was slain by Piglin Brute
+[21May2025 06:13:07.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was shot by Piglin
+[21May2025 06:13:19.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O tried to swim in lava
+[21May2025 06:13:49.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester burned to death
+[21May2025 06:14:43.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Teleported YamadaH2O to Mandester]
+[21May2025 06:14:43.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O has made the advancement [Those Were the Days]
+[21May2025 06:15:14.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was slain by Piglin Brute
+[21May2025 06:15:27.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O has made the advancement [War Pigs]
+[21May2025 06:15:38.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O has made the advancement [Hunt and Gather]
+[21May2025 06:16:19.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was slain by Piglin Brute
+[21May2025 06:16:35.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [War Pigs]
+[21May2025 06:16:37.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Hidden in the Depths]
+[21May2025 06:16:49.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was slain by Piglin Brute
+[21May2025 06:17:24.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was slain by Piglin Brute
+[21May2025 06:23:42.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 06:26:46.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O has made the advancement [A Terrible Fortress]
+[21May2025 06:29:47.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O has made the advancement [Into Fire]
+[21May2025 06:32:52.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was slain by Piglin
+[21May2025 06:35:58.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has completed the challenge [Cover Me in Debris]
+[21May2025 06:36:29.235] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:29.334] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:29.433] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:29.537] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:29.634] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:29.733] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:29.834] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:29.934] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:30.037] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:30.134] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:30.236] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:30.335] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:30.433] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:30.538] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:30.634] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:30.735] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:30.833] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:30.939] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:31.038] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:31.154] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:31.284] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:31.346] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:31.436] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:31.537] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:31.634] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:31.735] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:31.833] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:31.937] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:32.034] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:32.136] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:32.238] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:32.335] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:32.437] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:32.534] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:32.639] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:32.733] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:32.834] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:32.934] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:36:33.033] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21May2025 06:39:25.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was shot by Bloodymancer
+[21May2025 06:39:44.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was slain by Bloody Cultist
+[21May2025 06:40:04.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O has made the advancement [Nightmare Fuel]
+[21May2025 06:40:27.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O has completed the challenge [Hot Tourist Destinations]
+[21May2025 06:45:02.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [The Man Of Steel]
+[21May2025 06:45:50.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 06:48:06.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was burnt to a crisp whilst fighting Lady Blaze
+[21May2025 06:48:12.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 06:48:38.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester was burnt to a crisp whilst fighting Lady Blaze
+[21May2025 06:48:41.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 06:49:09.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester burned to death
+[21May2025 06:49:13.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[21May2025 06:52:30.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Into Fire]
+[21May2025 06:59:04.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O was slain by Infernus
+[21May2025 07:05:10.383] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Disconnected
+[21May2025 07:05:10.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[21May2025 07:06:01.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O burned to death
+[21May2025 07:06:12.182] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YamadaH2O lost connection: Disconnected
+[21May2025 07:06:12.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O left the game
+[21May2025 07:07:16.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[21May2025 07:07:16.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21May2025 07:07:16.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21May2025 07:07:16.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21May2025 07:07:16.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21May2025 07:07:16.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21May2025 07:07:16.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21May2025 07:07:16.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21May2025 07:07:16.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21May2025 07:07:16.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21May2025 07:07:16.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21May2025 07:07:17.347] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
