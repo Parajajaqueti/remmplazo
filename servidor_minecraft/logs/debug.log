@@ -6663,3 +6663,10 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [21May2025 23:25:21.410] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [21May2025 23:27:41.773] [Server thread/DEBUG] [mixin/]: Mixing chaincogwheel.RotationPropagatorMixin from create_connected.mixins.json into com.simibubi.create.content.kinetics.RotationPropagator
 [21May2025 23:27:41.773] [Server thread/DEBUG] [mixin/]: create_connected.mixins.json:chaincogwheel.RotationPropagatorMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[21May2025 23:30:21.397] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 23:30:21.407] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 23:31:15.245] [Server thread/DEBUG] [mixin/]: Mixing PressingBehaviourMixin from sliceanddice.mixins.json into com.simibubi.create.content.kinetics.press.PressingBehaviour
+[21May2025 23:31:15.246] [Server thread/DEBUG] [mixin/]: sliceanddice.mixins.json:PressingBehaviourMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[21May2025 23:31:29.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Bonk!]
+[21May2025 23:35:21.395] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 23:35:21.405] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

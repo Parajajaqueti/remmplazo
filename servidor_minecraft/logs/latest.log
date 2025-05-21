@@ -454,3 +454,4 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [21May2025 23:17:41.737] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:42321] logged in with entity id 2665 at (-777.9194547597414, 33.0, 685.5846252050738)
 [21May2025 23:17:41.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
 [21May2025 23:21:13.331] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8119ms or 162 ticks behind
+[21May2025 23:31:29.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Bonk!]
