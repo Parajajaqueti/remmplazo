@@ -7401,5 +7401,17 @@
     },
     "done": true
   },
+  "dungeons_and_combat:hiddeninthe_cult": {
+    "criteria": {
+      "hiddeninthe_cult_0": "2025-05-22 14:04:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-05-22 14:00:39 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
