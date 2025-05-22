@@ -453,3 +453,26 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 18:42:39.550] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
 [22May2025 18:42:43.847] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:59951] logged in with entity id 2414 at (3343.1409428828197, 76.84425295654512, -2708.2733837405485)
 [22May2025 18:42:43.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
+[22May2025 18:43:35.271] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Disconnected
+[22May2025 18:43:35.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[22May2025 18:43:46.166] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@13cd7838[id=<null>,name=Mandester,properties={},legacy=false] (/127.59.157.143:39817) lost connection: Disconnected
+[22May2025 18:45:14.925] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
+[22May2025 18:45:18.892] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:49783] logged in with entity id 3538 at (3210.9692976573665, 65.29999995231628, -2641.9622470346244)
+[22May2025 18:45:18.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
+[22May2025 18:46:03.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 0.29494095824384203
+[22May2025 18:46:03.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 1.1291501653145133
+[22May2025 18:46:03.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 1.6726031552821041
+[22May2025 18:46:03.873] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 2.0604782905320462
+[22May2025 18:46:03.906] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 2.3651068176100125
+[22May2025 18:46:03.968] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 2.625191744413314
+[22May2025 18:46:04.019] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 2.8614422788132288
+[22May2025 18:46:04.068] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 2.9878552294430847
+[22May2025 18:46:04.110] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Subterranodon (vehicle of Mandester) moved wrongly! 3.055496278922874
+[22May2025 18:47:30.815] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/3864, l='ServerLevel[world]', x=2979.37, y=60.97, z=-2608.64] died, message: 'Farmer drowned'
+[22May2025 18:58:50.117] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Timed out
+[22May2025 18:58:50.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[22May2025 18:59:01.688] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
+[22May2025 18:59:06.778] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:36759] logged in with entity id 6886 at (2977.5, 64.0, -2609.5)
+[22May2025 18:59:06.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
+[22May2025 19:01:05.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Spooky Scary Skeletons]
+[22May2025 19:01:56.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Spooky Scary Skeleton]
