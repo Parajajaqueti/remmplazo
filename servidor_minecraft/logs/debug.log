@@ -7091,3 +7091,7 @@ Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/cli
 [22May2025 23:33:11.105] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@35ac99b8 into net.minecraft.network.Connection@7a057347
 [22May2025 23:33:11.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
 [22May2025 23:33:11.129] [Server thread/DEBUG] [com.hlysine.create_connected.CreateConnected/]: Sync Config: Sending server config to Mandester
+[22May2025 23:34:53.105] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22May2025 23:34:53.115] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22May2025 23:39:53.102] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22May2025 23:39:53.113] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
