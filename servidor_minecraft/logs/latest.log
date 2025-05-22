@@ -492,3 +492,18 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 02:04:56.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Teleported YamadaH2O to JARAX23]
 [22May2025 02:05:34.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Teleported YamadaH2O to JARAX23]
 [22May2025 02:07:16.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O has made the advancement [A Small Price to Pay...]
+[22May2025 02:17:54.197] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YamadaH2O lost connection: Timed out
+[22May2025 02:17:54.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O left the game
+[22May2025 02:18:02.616] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player YamadaH2O is 92efd7a6-88fb-4f9b-8f48-624fdc0e1355
+[22May2025 02:18:05.603] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YamadaH2O[/127.176.151.104:55785] logged in with entity id 20999 at (3415.5356762050487, 155.41999998688698, -2125.300000011921)
+[22May2025 02:18:05.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O joined the game
+[22May2025 02:19:50.849] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: YamadaH2O lost connection: Timed out
+[22May2025 02:19:50.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O left the game
+[22May2025 02:20:15.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set the time to 1000]
+[22May2025 02:20:17.145] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player YamadaH2O is 92efd7a6-88fb-4f9b-8f48-624fdc0e1355
+[22May2025 02:20:21.650] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YamadaH2O[/127.176.151.104:40181] logged in with entity id 22401 at (3441.2503906178613, 77.0, -2116.348803276498)
+[22May2025 02:20:21.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O joined the game
+[22May2025 02:21:44.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported JARAX23 to Mandester]
+[22May2025 02:25:08.751] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JARAX23 moved too quickly! -2.0692599282779156,0.001335979112141672,-10.035861113067313
+[22May2025 02:28:43.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Set own game mode to Spectator Mode]
+[22May2025 02:30:05.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Set own game mode to Survival Mode]
