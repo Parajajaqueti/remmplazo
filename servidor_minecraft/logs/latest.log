@@ -497,3 +497,11 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 20:51:40.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
 [22May2025 20:54:21.116] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Disconnected
 [22May2025 20:54:21.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[22May2025 21:00:27.239] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
+[22May2025 21:00:33.826] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:50663] logged in with entity id 21522 at (2977.06368983538, 64.0, -2618.291380006081)
+[22May2025 21:00:33.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
+[22May2025 21:02:03.969] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Timed out
+[22May2025 21:02:03.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[22May2025 21:02:11.817] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
+[22May2025 21:02:17.432] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:49003] logged in with entity id 21899 at (2977.06368983538, 64.0, -2618.291380006081)
+[22May2025 21:02:17.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
