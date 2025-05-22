@@ -516,3 +516,20 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 02:57:21.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O has made the advancement [Ghost! Ghost! Toast?]
 [22May2025 02:59:39.473] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JARAX23 moved too quickly! 4.299096018230102,0.42355929454302554,9.189261014405474
 [22May2025 03:00:07.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported JARAX23 to Mandester]
+[22May2025 03:17:46.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set the time to 1000]
+[22May2025 03:22:53.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Enchanter]
+[22May2025 03:25:02.597] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JARAX23 lost connection: Disconnected
+[22May2025 03:25:02.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JARAX23 left the game
+[22May2025 03:26:21.097] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/71602, l='ServerLevel[world]', x=2066.70, y=56.00, z=61.59] died: Unlicensed Alchemist was slain by YamadaH2O
+[22May2025 03:26:24.193] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/71600, l='ServerLevel[world]', x=2062.44, y=56.00, z=61.63] died: Unlicensed Alchemist was slain by YamadaH2O
+[22May2025 03:26:27.822] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/71598, l='ServerLevel[world]', x=2066.50, y=56.00, z=60.58] died: Unlicensed Alchemist was slain by YamadaH2O
+[22May2025 03:26:49.570] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/72001, l='ServerLevel[world]', x=2066.30, y=53.00, z=41.50] died: Unlicensed Alchemist was slain by YamadaH2O
+[22May2025 03:27:02.556] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/72083, l='ServerLevel[world]', x=2066.15, y=53.00, z=41.52] died: Drunken Villager was slain by YamadaH2O
+[22May2025 03:27:27.571] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/72080, l='ServerLevel[world]', x=2057.53, y=53.00, z=26.51] died: Unlicensed Alchemist was slain by YamadaH2O
+[22May2025 03:27:47.766] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/72446, l='ServerLevel[world]', x=2061.05, y=53.00, z=26.50] died: Drunken Villager was slain by YamadaH2O
+[22May2025 03:28:14.795] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/72447, l='ServerLevel[world]', x=2058.85, y=53.00, z=29.52] died: Drunken Villager was slain by YamadaH2O
+[22May2025 03:29:40.943] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/73148, l='ServerLevel[world]', x=2054.35, y=58.00, z=55.82] died: Drunken Villager was slain by YamadaH2O
+[22May2025 03:29:42.973] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/71715, l='ServerLevel[world]', x=2054.57, y=58.00, z=55.83] died: Drunken Villager was slain by YamadaH2O
+[22May2025 03:30:18.546] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/70270, l='ServerLevel[world]', x=2057.30, y=80.00, z=67.50] died, message: 'Villager was slain by Zombie'
+[22May2025 03:31:50.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[22May2025 03:31:53.334] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/70202, l='ServerLevel[world]', x=2023.30, y=69.00, z=71.47] died, message: 'Villager was slain by Zombie'
