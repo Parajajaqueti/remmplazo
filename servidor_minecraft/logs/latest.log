@@ -465,3 +465,19 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 01:37:18.749] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player JARAX23 is b2da3f4f-368d-4add-91b8-fdefbc5fa6e9
 [22May2025 01:37:24.603] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: JARAX23[/127.69.151.243:38409] logged in with entity id 1399 at (3373.178947332285, 153.0, -1945.1384215424373)
 [22May2025 01:37:24.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JARAX23 joined the game
+[22May2025 01:45:39.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to JARAX23: regalale 10 de pedernal a Mandester
+[22May2025 01:45:45.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <JARAX23> bruh
+[22May2025 01:45:46.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <JARAX23> voy
+[22May2025 01:45:58.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to JARAX23: gracias
+[22May2025 01:46:43.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <JARAX23> haz de dia
+[22May2025 01:46:52.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <JARAX23> un creeper exploto el taladro
+[22May2025 01:47:04.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown selector type '@ '
+[22May2025 01:47:04.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: msg @ discord<--[HERE]
+[22May2025 01:47:18.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[22May2025 01:47:18.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  msg discord<--[HERE]
+[22May2025 01:47:36.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to JARAX23: discord
+[22May2025 01:47:47.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
+[22May2025 01:49:12.185] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
+[22May2025 01:49:17.000] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:57743] logged in with entity id 4906 at (2976.0870632179044, 66.0, -2626.499724158659)
+[22May2025 01:49:17.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
+[22May2025 01:49:58.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set the time to 1000]
