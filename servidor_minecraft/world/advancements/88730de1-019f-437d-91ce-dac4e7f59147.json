@@ -7497,9 +7497,27 @@
     },
     "done": true
   },
-  "create:deployer": {
+  "dungeons_and_combat:catacumbs_lugubrious": {
     "criteria": {
-      "0": "2025-05-22 20:05:58 +0000"
+      "catacumbs_lugubrious_0": "2025-05-22 19:01:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-05-22 19:01:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-05-22 19:01:56 +0000"
+    },
+    "done": true
+  },
+  "dungeons_and_combat:born_of_blood": {
+    "criteria": {
+      "born_of_blood_0": "2025-05-22 19:27:21 +0000"
     },
     "done": true
   },
@@ -7515,27 +7533,9 @@
     },
     "done": true
   },
-  "dungeons_and_combat:catacumbs_lugubrious": {
+  "create:deployer": {
     "criteria": {
-      "catacumbs_lugubrious_0": "2025-05-22 19:01:05 +0000"
-    },
-    "done": true
-  },
-  "dungeons_and_combat:born_of_blood": {
-    "criteria": {
-      "born_of_blood_0": "2025-05-22 19:27:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/get_wither_skull": {
-    "criteria": {
-      "wither_skull": "2025-05-22 19:01:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/skull_banner_pattern": {
-    "criteria": {
-      "has_wither_skeleton_skull": "2025-05-22 19:01:56 +0000"
+      "0": "2025-05-22 20:05:58 +0000"
     },
     "done": true
   },
