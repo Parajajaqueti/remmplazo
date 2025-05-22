@@ -533,3 +533,6 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 03:30:18.546] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/70270, l='ServerLevel[world]', x=2057.30, y=80.00, z=67.50] died, message: 'Villager was slain by Zombie'
 [22May2025 03:31:50.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
 [22May2025 03:31:53.334] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/70202, l='ServerLevel[world]', x=2023.30, y=69.00, z=71.47] died, message: 'Villager was slain by Zombie'
+[22May2025 03:35:13.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[22May2025 03:48:14.994] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Timed out
+[22May2025 03:48:14.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game

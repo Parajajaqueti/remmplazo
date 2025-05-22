@@ -7736,3 +7736,14 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 03:31:35.839] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [22May2025 03:31:50.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
 [22May2025 03:31:53.334] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/70202, l='ServerLevel[world]', x=2023.30, y=69.00, z=71.47] died, message: 'Villager was slain by Zombie'
+[22May2025 03:35:13.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Teleported Mandester to YamadaH2O]
+[22May2025 03:36:35.891] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22May2025 03:36:35.904] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22May2025 03:41:35.824] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22May2025 03:41:35.834] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22May2025 03:46:35.818] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22May2025 03:46:35.827] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22May2025 03:48:14.994] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Timed out
+[22May2025 03:48:14.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[22May2025 03:51:35.796] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22May2025 03:51:35.806] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
