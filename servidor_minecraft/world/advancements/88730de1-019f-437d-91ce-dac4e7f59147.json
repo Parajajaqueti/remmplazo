@@ -7497,9 +7497,21 @@
     },
     "done": true
   },
+  "create:deployer": {
+    "criteria": {
+      "0": "2025-05-22 20:05:58 +0000"
+    },
+    "done": true
+  },
   "dungeons_and_combat:blood_is_fuel_hell_is_full": {
     "criteria": {
       "blood_is_fuel_hell_is_full_0": "2025-05-22 19:42:57 +0000"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2025-05-22 20:05:17 +0000"
     },
     "done": true
   },
