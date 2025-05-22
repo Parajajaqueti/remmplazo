@@ -481,3 +481,9 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 01:49:17.000] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:57743] logged in with entity id 4906 at (2976.0870632179044, 66.0, -2626.499724158659)
 [22May2025 01:49:17.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
 [22May2025 01:49:58.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set the time to 1000]
+[22May2025 01:52:36.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Gave 10 [Mechanical Drill] to JARAX23]
+[22May2025 01:54:02.067] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player YamadaH2O is 92efd7a6-88fb-4f9b-8f48-624fdc0e1355
+[22May2025 01:54:06.456] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: YamadaH2O[/127.176.151.104:60065] logged in with entity id 6995 at (653.8871215372961, 176.0, -983.5602382893736)
+[22May2025 01:54:06.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O joined the game
+[22May2025 01:54:09.274] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2749ms or 54 ticks behind
+[22May2025 01:58:52.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Teleported JARAX23 to YamadaH2O]
