@@ -1,3 +1,24 @@
 [22May2025 00:13:22.765] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cook'/3221, l='ServerLevel[world]', x=2968.51, y=61.00, z=-2611.49] died, message: 'Cook drowned'
 [22May2025 00:25:24.197] [Server thread/INFO] [com.simibubi.create.Create/]: New Schematic Uploaded: Mandester/batsy_early_andesite_lBe73X7DrF.nbt
 [22May2025 00:37:46.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Hot Stuff]
+[22May2025 00:41:31.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Gave 128 [Bread] to Mandester]
+[22May2025 00:42:51.019] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Timed out
+[22May2025 00:42:51.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[22May2025 00:46:23.515] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@480a9099[id=<null>,name=Mandester,properties={},legacy=false] (/127.59.157.143:40781) lost connection: Disconnected
+[22May2025 00:46:34.601] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
+[22May2025 00:46:42.137] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:47183] logged in with entity id 18165 at (654.3289376745837, 166.0, -981.2195885078353)
+[22May2025 00:46:42.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
+[22May2025 00:47:48.617] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Disconnected
+[22May2025 00:47:48.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[22May2025 00:48:05.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[22May2025 00:48:05.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22May2025 00:48:05.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22May2025 00:48:05.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22May2025 00:48:05.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22May2025 00:48:05.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22May2025 00:48:05.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22May2025 00:48:05.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22May2025 00:48:05.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22May2025 00:48:05.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22May2025 00:48:05.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22May2025 00:48:05.665] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
