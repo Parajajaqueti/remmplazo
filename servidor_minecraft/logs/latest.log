@@ -487,3 +487,8 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 01:54:06.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O joined the game
 [22May2025 01:54:09.274] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2749ms or 54 ticks behind
 [22May2025 01:58:52.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Teleported JARAX23 to YamadaH2O]
+[22May2025 02:03:22.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Teleported YamadaH2O to Mandester]
+[22May2025 02:04:04.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Teleported JARAX23 to YamadaH2O]
+[22May2025 02:04:56.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Teleported YamadaH2O to JARAX23]
+[22May2025 02:05:34.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [YamadaH2O: Teleported YamadaH2O to JARAX23]
+[22May2025 02:07:16.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: YamadaH2O has made the advancement [A Small Price to Pay...]
