@@ -7497,6 +7497,12 @@
     },
     "done": true
   },
+  "dungeons_and_combat:blood_is_fuel_hell_is_full": {
+    "criteria": {
+      "blood_is_fuel_hell_is_full_0": "2025-05-22 19:42:57 +0000"
+    },
+    "done": true
+  },
   "dungeons_and_combat:catacumbs_lugubrious": {
     "criteria": {
       "catacumbs_lugubrious_0": "2025-05-22 19:01:05 +0000"

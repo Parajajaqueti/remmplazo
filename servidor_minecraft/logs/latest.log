@@ -481,3 +481,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 19:28:31.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set the time to 1000]
 [22May2025 19:29:40.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Survival Mode]
 [22May2025 19:33:51.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Creative Mode]
+[22May2025 19:35:50.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Survival Mode]
+[22May2025 19:40:34.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Creative Mode]
+[22May2025 19:40:47.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Survival Mode]
+[22May2025 19:42:57.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has completed the challenge [Blood Is Fuel Hell Is Full]
