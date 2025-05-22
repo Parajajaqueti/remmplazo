@@ -7503,6 +7503,12 @@
     },
     "done": true
   },
+  "dungeons_and_combat:born_of_blood": {
+    "criteria": {
+      "born_of_blood_0": "2025-05-22 19:27:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/get_wither_skull": {
     "criteria": {
       "wither_skull": "2025-05-22 19:01:56 +0000"

@@ -476,3 +476,8 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 18:59:06.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
 [22May2025 19:01:05.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Spooky Scary Skeletons]
 [22May2025 19:01:56.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Spooky Scary Skeleton]
+[22May2025 19:27:01.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Creative Mode]
+[22May2025 19:27:21.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Born In Blood]
+[22May2025 19:28:31.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set the time to 1000]
+[22May2025 19:29:40.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Survival Mode]
+[22May2025 19:33:51.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Creative Mode]
