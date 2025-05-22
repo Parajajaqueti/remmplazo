@@ -448,3 +448,26 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 13:45:30.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
 [22May2025 13:45:32.063] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
 [22May2025 14:04:25.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [Hidden in the Cult]
+[22May2025 14:25:18.786] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Disconnected
+[22May2025 14:25:18.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[22May2025 14:25:18.861] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[22May2025 14:25:38.307] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
+[22May2025 14:25:43.747] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:51769] logged in with entity id 10466 at (2939.0837282652396, 165.35394542425092, -2171.4149878339754)
+[22May2025 14:25:43.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
+[22May2025 14:26:51.186] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Disconnected
+[22May2025 14:26:51.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[22May2025 14:26:57.681] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
+[22May2025 14:27:01.948] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:51731] logged in with entity id 13223 at (2809.672522533724, 78.29999995231628, -2054.777602777858)
+[22May2025 14:27:01.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
+[22May2025 14:29:17.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has made the advancement [All Along The Watchtower]
+[22May2025 14:33:47.682] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Timed out
+[22May2025 14:33:47.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
+[22May2025 14:33:58.434] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Mandester is 88730de1-019f-437d-91ce-dac4e7f59147
+[22May2025 14:34:02.392] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mandester[/127.59.157.143:45781] logged in with entity id 21666 at (2976.1398317831686, 66.29999995231628, -2615.0928597001093)
+[22May2025 14:34:02.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester joined the game
+[22May2025 14:34:35.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Creative Mode]
+[22May2025 14:35:04.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Survival Mode]
+[22May2025 14:36:59.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Creative Mode]
+[22May2025 14:37:10.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Survival Mode]
+[22May2025 14:37:29.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Creative Mode]
+[22May2025 14:37:38.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Survival Mode]

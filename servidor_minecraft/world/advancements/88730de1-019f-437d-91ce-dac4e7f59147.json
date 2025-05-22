@@ -7401,15 +7401,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-05-22 14:00:39 +0000"
+    },
+    "done": true
+  },
   "dungeons_and_combat:hiddeninthe_cult": {
     "criteria": {
       "hiddeninthe_cult_0": "2025-05-22 14:04:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/grindstone": {
+  "farmersdelight:recipes/food/chocolate_pie_from_slices": {
     "criteria": {
-      "has_stone_slab": "2025-05-22 14:00:39 +0000"
+      "has_chocolate_pie_slice": "2025-05-22 14:08:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-05-22 14:15:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-05-22 14:15:05 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_windmill": {
+    "criteria": {
+      "location0": "2025-05-22 14:29:17 +0000"
     },
     "done": true
   },
