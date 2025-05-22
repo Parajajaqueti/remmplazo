@@ -485,3 +485,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [22May2025 19:40:34.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Creative Mode]
 [22May2025 19:40:47.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Mandester: Set own game mode to Survival Mode]
 [22May2025 19:42:57.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester has completed the challenge [Blood Is Fuel Hell Is Full]
+[22May2025 20:15:43.770] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mandester lost connection: Disconnected
+[22May2025 20:15:43.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mandester left the game
