@@ -38,6 +38,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-05-17 03:26:39 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-05-23 05:32:17 +0000",
       "minecraft:taiga": "2025-05-15 06:11:37 +0000",
       "minecraft:deep_ocean": "2025-05-22 02:06:04 +0000",
       "minecraft:eroded_badlands": "2025-05-15 07:13:02 +0000",
@@ -635,7 +636,8 @@
       "minecraft:piglin": "2025-05-21 06:15:53 +0000",
       "minecraft:stray": "2025-05-17 06:13:43 +0000",
       "minecraft:zombie": "2025-05-15 00:00:24 +0000",
-      "minecraft:drowned": "2025-05-21 04:53:55 +0000"
+      "minecraft:drowned": "2025-05-21 04:53:55 +0000",
+      "minecraft:zombie_villager": "2025-05-23 05:30:36 +0000"
     },
     "done": false
   },
@@ -705,6 +707,7 @@
       "chorus_fruit": "2025-05-17 07:29:52 +0000",
       "baked_potato": "2025-05-17 06:03:59 +0000",
       "apple": "2025-05-15 00:23:04 +0000",
+      "potato": "2025-05-23 05:22:25 +0000",
       "pumpkin_pie": "2025-05-15 00:10:12 +0000",
       "bread": "2025-05-15 00:00:31 +0000",
       "golden_apple": "2025-05-21 06:48:24 +0000",
@@ -3941,21 +3944,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/activator_rail": {
+  "minecraft:recipes/decorations/beehive": {
     "criteria": {
-      "has_rail": "2025-05-22 02:57:03 +0000"
+      "has_honeycomb": "2025-05-22 02:22:10 +0000"
     },
     "done": true
   },
-  "dungeons_arise:find_greenwood_pub": {
+  "minecraft:recipes/decorations/honeycomb_block": {
     "criteria": {
-      "location0": "2025-05-22 03:24:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/powered_rail": {
-    "criteria": {
-      "has_rail": "2025-05-22 02:57:03 +0000"
+      "has_honeycomb": "2025-05-22 02:22:10 +0000"
     },
     "done": true
   },
@@ -3965,21 +3962,15 @@
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/ghostly_pickaxe": {
+  "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
-      "ghostly_pickaxe": "2025-05-22 02:57:21 +0000"
+      "has_rail": "2025-05-22 02:57:03 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/beehive": {
+  "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
-      "has_honeycomb": "2025-05-22 02:22:10 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_fishing_hut": {
-    "criteria": {
-      "location0": "2025-05-22 03:23:08 +0000"
+      "has_rail": "2025-05-22 02:57:03 +0000"
     },
     "done": true
   },
@@ -3989,9 +3980,141 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/honeycomb_block": {
+  "alexsmobs:alexsmobs/ghostly_pickaxe": {
     "criteria": {
-      "has_honeycomb": "2025-05-22 02:22:10 +0000"
+      "ghostly_pickaxe": "2025-05-22 02:57:21 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_fishing_hut": {
+    "criteria": {
+      "location0": "2025-05-22 03:23:08 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_greenwood_pub": {
+    "criteria": {
+      "location0": "2025-05-22 03:24:05 +0000"
+    },
+    "done": true
+  },
+  "iammusicplayer:recipes/misc/music_manager": {
+    "criteria": {
+      "has_diamond": "2025-05-23 03:22:51 +0000"
+    },
+    "done": true
+  },
+  "iammusicplayer:recipes/misc/manual": {
+    "criteria": {
+      "has_book": "2025-05-23 03:22:51 +0000"
+    },
+    "done": true
+  },
+  "iammusicplayer:iammusicplayer/listen_to_remote_music": {
+    "criteria": {
+      "listen_to_remote_music": "2025-05-23 03:38:48 +0000"
+    },
+    "done": true
+  },
+  "iammusicplayer:iammusicplayer/listen_to_music": {
+    "criteria": {
+      "listen_to_music": "2025-05-23 03:38:48 +0000"
+    },
+    "done": true
+  },
+  "iammusicplayer:iammusicplayer/root": {
+    "criteria": {
+      "iammusicplayer": "2025-05-23 03:38:48 +0000"
+    },
+    "done": true
+  },
+  "dungeons_and_combat:hiddeninthe_cult": {
+    "criteria": {
+      "hiddeninthe_cult_0": "2025-05-23 05:24:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-23 05:20:59 +0000"
+    },
+    "done": true
+  },
+  "dungeons_and_combat:now_you_can_rest": {
+    "criteria": {
+      "now_you_can_rest_0": "2025-05-23 05:02:43 +0000"
+    },
+    "done": true
+  },
+  "dungeons_and_combat:blood_is_fuel_hell_is_full": {
+    "criteria": {
+      "blood_is_fuel_hell_is_full_0": "2025-05-23 04:55:44 +0000"
+    },
+    "done": true
+  },
+  "iammusicplayer:iammusicplayer/add_music": {
+    "criteria": {
+      "add_music": "2025-05-23 04:25:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-05-23 05:20:59 +0000"
+    },
+    "done": true
+  },
+  "dungeons_and_combat:dark_purposes": {
+    "criteria": {
+      "dark_purposes_0": "2025-05-23 05:21:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-05-23 05:20:59 +0000"
+    },
+    "done": true
+  },
+  "iammusicplayer:recipes/misc/parabolic_antenna": {
+    "criteria": {
+      "has_ender_pearl": "2025-05-23 05:04:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-05-23 04:38:19 +0000"
+    },
+    "done": true
+  },
+  "dungeons_and_combat:the_bloodymancer": {
+    "criteria": {
+      "the_bloodymancer_0": "2025-05-23 04:34:19 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2025-05-23 04:59:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-05-23 05:20:59 +0000"
+    },
+    "done": true
+  },
+  "dungeons_and_combat:the_cursed_soul": {
+    "criteria": {
+      "the_cursed_soul_0": "2025-05-23 05:02:40 +0000"
+    },
+    "done": true
+  },
+  "iammusicplayer:recipes/misc/radio_antenna": {
+    "criteria": {
+      "has_ender_pearl": "2025-05-23 05:04:19 +0000"
     },
     "done": true
   },
